@@ -1,4 +1,37 @@
-*{
-    background-color: rgb(181, 124, 247);
-    color: rgb(255, 241, 255);
+/* Element Selector */
+body 
+{
+  /* Declarations = Property: Value */
+  background-color: rgb(177, 198, 236);
+}
+* 
+h1
+{
+  color: hsla(0, 0%, 100%, 0.5);
+  background-color: hsl(303, 70%, 76%);
+}
+
+body 
+{
+  color: rgb(254, 254, 254);
+}
+
+
+
+p    { color: rgb(96, 122, 228);    }
+
+@font-face 
+{
+  font-family: "Unbounded";
+  src:
+    url("Unbounded-VariableFont_wght.ttf") format("ttf"),
+    url("Unbounded-VariableFont_wght.ttf")  format("ttf");
+  
+}
+
+
+body 
+{
+  font-family: "Unbounded";
+  font-size: 14px
 }
