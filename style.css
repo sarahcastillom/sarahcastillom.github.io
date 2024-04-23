@@ -1,87 +1,107 @@
 body 
 {
-  background-color: rgb(177, 198, 236);
-  color: rgb(254, 254, 254);
+  /* general settings*/
+  background-color: #f1faee;
   font-size: 0.8vw;
   line-height: 0.7vw;
 }
 
 h1
 {
-  color: hsla(0, 0%, 100%, 0.5);
-  font-size: 11em;
+  color: #a8dadc;
+  font-size: 4em;
   line-height: 1.2em;
-  
   text-transform: uppercase;
   letter-spacing: 0.1em ;
-  
   text-align: center;
 }
 
-p, a, h2, h3
+p, h2, h3, h5
 {
+  color: #a8dadc;
   font-size: 1.5em;
-  line-height: 1.5em;
-  
+  line-height: 1.5em; 
   word-spacing: -0.1em;
   text-align: left;
 }
 
-
-nav 
+a 
 {
+  /* for links color8*/
+  color:#e63946;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  word-spacing: -0.1em;
+  text-align: left;
+}
+
+.navbar {
+  /*nav bar letters settings*/
+  color: #f1faee;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  word-spacing: -0.1em;
+}
+nav
+{
+  /*navigation bar styling: box*/
+  border-width: 2px;
+  border-color: #e63946;
+  background-color: #e63946;
+  border-style: solid;
+  border-radius: 30px;
+
+  padding-right: 40px;
+  padding-left: 40px;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+
   display: flex;
-  justify-content: space-around; /* Distribuye los elementos equitativamente en el contenedor */
-  background-color: hsla(0, 0%, 100%, 0.5); 
-  padding: 1px 1px 1px 1px; /* Espacio interno en el contenedor del menú */
+  justify-content: space-around /* Distribuye los elementos equitativamente en el contenedor */
 }
 
-nav a
-{
-  color: rgb(177, 198, 236);
-  text-decoration: none; /* Quita la subrayado de los enlaces */
-  padding: 20px 40px; /* Espacio interno en los enlaces */
-}
+
+/*links*/
 
 a:link 
 {
-  color: rgb(254, 254, 254);
-  text-decoration: none;
-}
-a:visited 
-{
-  color: rgb(254, 254, 254);
+  /*for no text decoration on links*/
   text-decoration: none;
 }
 
 a:hover 
 {
-  color: rgb(130, 169, 241);
+  color: #a8dadc;
   text-decoration: none;
 }
 
 
 
-img {
-  width: 40%; /* Define el ancho de la imagen */
-  height: auto; /* Mantiene la proporción original de la imagen */
+/*table */
+
+.contacts table {
+  border-collapse: collapse;
+  width: 30%;
 }
 
-.videotype{
-  width: 500px;
+.contacts table, .contacts td {
+  border: 1px solid #a8dadc;
+  color:#a8dadc;
+  padding: 3px;
+  text-align: left;
+
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
-
-h1 
+ .contacts th
 {
-  font-family: 'Poppins' , sans-serif;
+  border: 1px solid #a8dadc;
+  color:#a8dadc;
+  
+  padding: 3px;
+  text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
 
-body 
-{
-  font-family: 'Lora', serif;
-}
+
+
+
