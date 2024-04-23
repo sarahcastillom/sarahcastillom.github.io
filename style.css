@@ -42,6 +42,7 @@ a
   line-height: 1.5em;
   word-spacing: -0.1em;
 }
+
 nav
 {
   /*navigation bar styling: box*/
@@ -75,6 +76,24 @@ a:hover
   color: #a8dadc;
   text-decoration: none;
 }
+
+
+/*images*/
+
+.imageone
+{
+  width: 50%;
+  height: auto;
+}
+
+
+/*video*/
+
+.videoone{
+  width: 300px;
+}
+
+
 
 
 
