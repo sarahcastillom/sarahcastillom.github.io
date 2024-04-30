@@ -9,15 +9,46 @@ body
 h1
 {
   color: #a8dadc;
-  font-size: 4em;
-  line-height: 1.2em;
+  font-size: 6em;
+  line-height: 0.5em;
   text-transform: uppercase;
-  letter-spacing: 0.1em ;
+  letter-spacing: 0.2em ;
   text-align: center;
   
 }
 
-p, h2, h3, figcaption
+h2
+{
+  color: #e63946;
+  font-size: 5em;
+  line-height: 0.5em;
+  letter-spacing: 0.1em ;
+  text-align: center;
+  
+
+}
+
+h3
+{
+  color: #a8dadc;
+  font-size: 2em;
+  line-height: 1.5em; 
+  word-spacing: -0.1em;
+  text-align: left;
+
+}
+
+.titles
+{
+  color: #a8dadc;
+  font-size: 3em;
+  line-height: 1.5em; 
+  word-spacing: -0.1em;
+  text-align: center;
+
+}
+
+p, figcaption
 {
   color: #a8dadc;
   font-size: 1.5em;
@@ -28,7 +59,7 @@ p, h2, h3, figcaption
 
 a 
 {
-  /* for links color8*/
+  /* for links color*/
   color:#e63946;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -85,9 +116,9 @@ a:hover
 .imageone
 {
   width: 100%;
-  height: auto;
-  
+  height: auto; 
 }
+
 
 main 
 {
@@ -199,4 +230,27 @@ figcaption
 
 
 
+
+/*typography*/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
+
+h1, body
+{
+  font-family: 'Poppins' , sans-serif;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h2
+{
+  font-family: 'Pacifico', serif
+
+  
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');*/
 
