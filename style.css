@@ -1,10 +1,10 @@
 
 /*typography*/ 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap'); */
 
 body 
 {
@@ -14,47 +14,65 @@ body
   line-height: 0.7vw;
   margin-left: 6%;
   margin-right: 6%;
-  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1
 {
   color: #a8dadc;
   font-size: 6em;
-  line-height: 0.5em;
+  line-height: 0.9em;
   text-transform: uppercase;
-  letter-spacing: 0.2em ;
+  letter-spacing: 0.1em ;
   text-align: center;
-  font-family: 'Poppins' , sans-serif;
+  font-family: 'Yanone Kaffeesatz' , sans-serif;
 }
 
 h2
 {
   color: #e63946;
-  font-size: 5em;
+  font-size: 3em;
+  font-weight: 300;
   line-height: 0.5em;
   letter-spacing: 0.1em ;
   text-align: center;
-  font-family: 'Pacifico', serif
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 7%;
+  
 }
+
 
 h3
 {
   color: #a8dadc;
   font-size: 2em;
+  font-weight: 600;
   line-height: 1.5em; 
-  word-spacing: -0.1em;
+  letter-spacing: 0.05em;
   text-align: left;
-
+  font-family:'Yanone Kaffeesatz' , sans-serif;
 }
 
 .titles
 {
   color: #a8dadc;
   font-size: 3em;
-  line-height: 1.5em; 
-  word-spacing: -0.1em;
+  letter-spacing: 0.05em ;
   text-align: center;
+  font-family: 'Yanone Kaffeesatz' , sans-serif;
+  font-weight: 600;
+}
+
+.welcometext 
+
+{
+text-align: center;
+font-size: 4em;
+font-weight: 400;
+letter-spacing: 0.05em ;
+margin-top: 10%;
+margin-left: 7%;
+margin-right: 7%;
 
 }
 
@@ -70,12 +88,13 @@ p, figcaption
 a 
 {
   /* for links color*/
-  color:#e63946;
+  color:#a8dadc;
   font-size: 1.5em;
   line-height: 1.5em;
   word-spacing: -0.1em;
   text-align: left;
 }
+
 
 .navbar {
   /*nav bar letters settings*/
@@ -84,6 +103,8 @@ a
   line-height: 1.5em;
   word-spacing: -0.1em;
 }
+
+
 
 nav
 {
@@ -112,6 +133,8 @@ a:link
 {
   /*for no text decoration on links*/
   text-decoration: none;
+  
+  
 }
 
 a:hover 
@@ -128,6 +151,7 @@ a:hover
   width: 100%;
   height: auto; 
 }
+
 
 
 main 
@@ -150,6 +174,7 @@ figcaption
   text-align: center;
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) 
 {
@@ -163,6 +188,10 @@ figcaption
     /*background-color: red;*/
     font-size: 0.7em;
   }
+  .welcometext
+  {
+    font-size: 2em;
+  }
 
 }
 
@@ -172,6 +201,16 @@ figcaption
   figure 
   {
     width: 47%;
+  }
+
+  body 
+  {
+    /*background-color: blue;*/
+    font-size: 0.6em;
+  }
+  .welcometext
+  {
+    font-size: 2.4em;
   }
   
 }
@@ -201,7 +240,8 @@ figcaption
 /*video*/
 
 .videoone{
-  width: 300px;
+  width: 90%;
+
 }
 
 
@@ -224,10 +264,66 @@ footer
   border-radius: 30px;
 }
 
+.buttontwo
+{    
+  background-color: #e63946;
+  color: white;
+  font-size: 1.2em;
+  bottom: 10px; 
+  right: 45%; 
+  padding: 7px 12px;
+  border-radius: 30px;
+}
+
+.buttonthree
+{    
+  background-color: #e63946;
+  color: white;
+  font-size: 1.2em;
+  bottom: 10px; 
+  right: 45%; 
+  padding: 7px 12px;
+  border-radius: 30px;
+}
+
+.buttonfour
+{    
+  background-color: #e63946;
+  color: white;
+  font-size: 1.2em;
+  bottom: 10px; 
+  right: 45%; 
+  padding: 7px 12px;
+  border-radius: 30px;
+}
+
+.buttonfive
+{    
+  background-color: #e63946;
+  color: white;
+  font-size: 1.2em;
+  bottom: 10px; 
+  right: 45%; 
+  padding: 7px 12px;
+  border-radius: 30px;
+}
+
+.buttonsix
+{    
+  background-color: #e63946;
+  color: white;
+  font-size: 1.2em;
+  bottom: 10px; 
+  right: 45%; 
+  padding: 7px 12px;
+  border-radius: 30px;
+}
+
+
 
 /*table */
 
-.contacts table {
+/*.contacts table {
   border-collapse: collapse;
   width: 30%;
 }
@@ -246,4 +342,4 @@ footer
   
   padding: 3px;
   text-align: center;
-}
+}*/
