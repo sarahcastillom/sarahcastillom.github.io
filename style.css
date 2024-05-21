@@ -207,7 +207,7 @@ figcaption
   body 
   {
     /*background-color: blue;*/
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   .welcometext
   {
@@ -222,6 +222,12 @@ figcaption
   figure 
   {
     width: 30.5%;
+  }
+
+  body 
+  {
+    /*background-color: green;*/
+    font-size: 0.9em;
   }
 
 }
