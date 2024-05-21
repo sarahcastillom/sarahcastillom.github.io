@@ -41,7 +41,6 @@ h2
   
 }
 
-
 h3
 {
   color: #a8dadc;
@@ -63,36 +62,19 @@ h3
   font-weight: 600;
 }
 
-.welcometext 
-
-{
-text-align: center;
-font-size: 4em;
-font-weight: 400;
-letter-spacing: 0.05em ;
-margin-top: 10%;
-margin-left: 7%;
-margin-right: 7%;
-
-}
-
-p, figcaption
-{
-  color: #a8dadc;
-  font-size: 1.5em;
-  line-height: 1.5em; 
-  word-spacing: -0.1em;
-  text-align: left;
-}
-
 a 
 {
   /* for links color*/
   color:#a8dadc;
-  font-size: 1.5em;
   line-height: 1.5em;
   word-spacing: -0.1em;
   text-align: left;
+}
+
+ul
+{
+  color: #a8dadc;
+  line-height: 150%; 
 }
 
 
@@ -104,6 +86,25 @@ a
   word-spacing: -0.1em;
 }
 
+.welcometext 
+{
+text-align: center;
+font-size: 4em;
+font-weight: 400;
+letter-spacing: 0.05em ;
+margin-top: 10%;
+margin-left: 7%;
+margin-right: 7%;
+}
+
+p, figcaption
+{
+  color: #a8dadc;
+  /*font-size: 1.5em;*/
+  line-height: 1.5em; 
+  word-spacing: -0.1em;
+  text-align: left;
+}
 
 
 nav
@@ -249,74 +250,32 @@ figcaption
 
 footer 
 {
+  width: 100%;
   text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  margin-bottom: 20px;
+}
+
+.work_grid 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 2%;
 }
 
 .button
 {    
   background-color: #e63946;
   color: white;
-  font-size: 1.2em;
-  position: fixed;
-  bottom: 10px; 
-  right: 45%; 
   padding: 7px 12px;
   border-radius: 30px;
-}
-
-.buttontwo
-{    
-  background-color: #e63946;
-  color: white;
-  font-size: 1.2em;
-  bottom: 10px; 
-  right: 45%; 
-  padding: 7px 12px;
-  border-radius: 30px;
-}
-
-.buttonthree
-{    
-  background-color: #e63946;
-  color: white;
-  font-size: 1.2em;
-  bottom: 10px; 
-  right: 45%; 
-  padding: 7px 12px;
-  border-radius: 30px;
-}
-
-.buttonfour
-{    
-  background-color: #e63946;
-  color: white;
-  font-size: 1.2em;
-  bottom: 10px; 
-  right: 45%; 
-  padding: 7px 12px;
-  border-radius: 30px;
-}
-
-.buttonfive
-{    
-  background-color: #e63946;
-  color: white;
-  font-size: 1.2em;
-  bottom: 10px; 
-  right: 45%; 
-  padding: 7px 12px;
-  border-radius: 30px;
-}
-
-.buttonsix
-{    
-  background-color: #e63946;
-  color: white;
-  font-size: 1.2em;
-  bottom: 10px; 
-  right: 45%; 
-  padding: 7px 12px;
-  border-radius: 30px;
+  margin-bottom: 10px;
 }
 
 
