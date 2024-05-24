@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Maven+Pro:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap'); */
+
 
 body 
 {
@@ -88,13 +88,13 @@ ul
 
 .welcometext 
 {
-text-align: center;
-font-size: 4em;
-font-weight: 400;
-letter-spacing: 0.05em ;
-margin-top: 10%;
-margin-left: 7%;
-margin-right: 7%;
+ text-align: center;
+ font-size: 4em;
+ font-weight: 400;
+ letter-spacing: 0.05em ;
+ margin-top: 10%;
+ margin-left: 7%;
+ margin-right: 7%;
 }
 
 p, figcaption
@@ -134,8 +134,6 @@ a:link
 {
   /*for no text decoration on links*/
   text-decoration: none;
-  
-  
 }
 
 a:hover 
@@ -145,111 +143,41 @@ a:hover
 }
 
 
-/*images*/
 
-.imageone
-{
-  width: 100%;
-  height: auto; 
-}
+/*images and videos */
 
 
+   /*ilustrations*/
 
-main 
-{
-  width: 100%
-}
-
-figure 
-{
-  width: 25%;
-  
-  float: left;
-  
-  margin-top: 2%;
-  margin-left: 2%;
-}
-
-figcaption 
-{
-  text-align: center;
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) 
-{
-  figure 
+  .flexboxilustrations
   {
-    width: 96%;
+    display: flex;
+    justify-content: center; 
   }
 
-  body 
+  .ilustration
   {
-    /*background-color: red;*/
-    font-size: 0.7em;
-  }
-  .welcometext
-  {
-    font-size: 2em;
+    width: 50%; 
   }
 
-}
+  /*projects images and videos*/
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
-{
-  figure 
+  .flexboxprojects
   {
-    width: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:2%;
   }
 
-  body 
+  .flexcontent
   {
-    /*background-color: blue;*/
-    font-size: 0.8em;
+    width: 500px;
+    height: auto;
+    padding: 8px 8px;
   }
-  .welcometext
-  {
-    font-size: 2.4em;
-  }
-  
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
-{
-  figure 
-  {
-    width: 30.5%;
-  }
-
-  body 
-  {
-    /*background-color: green;*/
-    font-size: 0.9em;
-  }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-  figure 
-  {
-    width: 22.5%;
-  }
-
-}
-
-
-
-/*video*/
-
-.videoone{
-  width: 90%;
-
-}
 
 
 /*button*/
@@ -272,7 +200,7 @@ footer
   align-items: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap: 2%;
+  gap: 2% ;
 }
 
 .button
@@ -285,26 +213,73 @@ footer
 }
 
 
+/*responsive*/
 
-/*table */
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) 
+   {
+    figure 
+     {
+       width: 96%;
+     }
 
-/*.contacts table {
-  border-collapse: collapse;
-  width: 30%;
-}
+    body 
+     {
+       /*background-color: red;*/
+       font-size:1em;
+     }
 
-.contacts table, .contacts td {
-  border: 2px solid #a8dadc;
-  color:#a8dadc;
-  padding: 3px;
-  text-align: left;
+    .welcometext
+     {
+       font-size: 2em;
+     }
+   }
 
-}
- .contacts th
-{
-  border: 1px solid #a8dadc;
-  color:#a8dadc;
-  
-  padding: 3px;
-  text-align: center;
-}*/
+   /* Medium devices (landscape tablets, 768px and up) */
+   @media only screen and (min-width: 768px) 
+   {
+     figure 
+      {
+        width: 47%;
+      }
+
+     body 
+      {
+        /*background-color: blue;*/
+        font-size: 0.9em;
+      }
+
+    .welcometext
+      {
+        font-size: 2.4em;
+      }
+   }
+
+   /* Large devices (laptops/desktops, 992px and up) */
+   @media only screen and (min-width: 992px) 
+  {
+    figure 
+     {
+       width: 30.5%;
+     }
+
+    body 
+     {
+       /*background-color: green;*/
+       font-size: 0.8em;
+     }
+  }
+
+   /* Extra large devices (large laptops and desktops, 1200px and up) */
+   @media only screen and (min-width: 1200px) 
+  {
+    figure 
+     {
+       width: 22.5%;
+     }
+  }
+
+
+
+
+
