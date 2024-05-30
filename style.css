@@ -8,16 +8,16 @@
 
 body 
 {
-  /* general settings*/
   background-color: #f1faee;
+  color: #a8dadc;
   font-size: 0.5em;
-  line-height: 0.7vw;
   margin-left: 6%;
   margin-right: 6%;
+  text-align: left;
   font-family: 'Poppins', sans-serif;
 }
 
-h1
+h1 /*header*/
 {
   color: #a8dadc;
   font-size: 6em;
@@ -28,20 +28,17 @@ h1
   font-family: 'Yanone Kaffeesatz' , sans-serif;
 }
 
-h2
+.titles /*titles for each page*/
 {
-  color: #e63946;
+  color: #a8dadc;
   font-size: 3em;
-  font-weight: 300;
-  line-height: 0.5em;
-  letter-spacing: 0.1em ;
+  letter-spacing: 0.05em ;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 7%;
-  
+  font-family: 'Yanone Kaffeesatz' , sans-serif;
+  font-weight: 600;
 }
 
-h3
+h3 /*subtitles*/
 {
   color: #a8dadc;
   font-size: 2em;
@@ -52,44 +49,10 @@ h3
   font-family:'Yanone Kaffeesatz' , sans-serif;
 }
 
-.titles
-{
-  color: #a8dadc;
-  font-size: 3em;
-  letter-spacing: 0.05em ;
-  text-align: center;
-  font-family: 'Yanone Kaffeesatz' , sans-serif;
-  font-weight: 600;
-}
-
-a 
-{
-  /* for links color*/
-  color:#a8dadc;
-  line-height: 1.5em;
-  word-spacing: -0.1em;
-  text-align: left;
-}
-
-ul
-{
-  color: #a8dadc;
-  line-height: 150%; 
-}
-
-
-.navbar {
-  /*nav bar letters settings*/
-  color: #f1faee;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  word-spacing: -0.1em;
-}
-
-.welcometext 
+.welcometext /*welcome text on index page*/
 {
  text-align: center;
- font-size: 4em;
+ font-size: 3em;
  font-weight: 400;
  letter-spacing: 0.05em ;
  margin-top: 10%;
@@ -97,19 +60,19 @@ ul
  margin-right: 7%;
 }
 
-p, figcaption
+a /* for links color*/
 {
-  color: #a8dadc;
-  /*font-size: 1.5em;*/
-  line-height: 1.5em; 
-  word-spacing: -0.1em;
-  text-align: left;
+  color:#a8dadc;
 }
 
-
-nav
+.navbar /*nav bar letters settings*/
 {
-  /*navigation bar styling: box*/
+  color: #f1faee;
+  font-size: 1.2em;
+}
+
+nav /*navigation bar styling: box*/
+{
   border-width: 2px;
   border-color: #e63946;
   background-color: #e63946;
@@ -118,36 +81,33 @@ nav
 
   padding-right: 40px;
   padding-left: 40px;
-
   padding-bottom: 10px;
   padding-top: 10px;
 
   display: flex;
-  justify-content: space-around; /* Distribuye los elementos equitativamente en el contenedor */
+  justify-content: space-around; /*Distributes the elements evenly in the container*/
   
 }
 
 
 /*links*/
 
-a:link 
-{
-  /*for no text decoration on links*/
-  text-decoration: none;
-}
+  a:link 
+  {
+    text-decoration: none; /*for no text decoration on links*/
+  }
 
-a:hover 
-{
-  color: #a8dadc;
-  text-decoration: none;
-}
+  a:hover 
+  {
+   color: #a8dadc; /*color when hovering the link*/
+   text-decoration: none; /*for no text decoration on hover links*/
+  }
 
 
 
 /*images and videos */
 
-
-   /*ilustrations*/
+   /*ilustrations for each page: index, my work, about me, and contacts*/
 
   .flexboxilustrations
   {
@@ -157,10 +117,10 @@ a:hover
 
   .ilustration
   {
-    width: 50%; 
+    width: 40%; 
   }
 
-  /*projects images and videos*/
+  /*projects' images and videos flexbox*/
 
   .flexboxprojects
   {
@@ -182,7 +142,7 @@ a:hover
 
 /*button*/
 
-footer 
+footer /*for "more on behance" button*/
 {
   width: 100%;
   text-align: center;
@@ -192,7 +152,7 @@ footer
   margin-bottom: 20px;
 }
 
-.work_grid 
+.work_grid  /* for buttons with links to each project */
 {
   display: flex;
   flex-direction: row;
@@ -245,7 +205,7 @@ footer
 
      body 
       {
-        /*background-color: blue;*/
+       /* background-color: blue;*/
         font-size: 0.9em;
       }
 
